@@ -10,7 +10,8 @@ In induatrial grade image and audio compression (jpeg and mp3), Discrete Cosine 
 <img width="1041" height="243" alt="image" src="https://github.com/user-attachments/assets/a6ce9fb5-1e16-409d-b0b9-ad7f4d2d7fca" />
 
 
-'''python
+```python
+
 def idct_iii_ortho(X):
     X = np.asarray(X, dtype=float)
     N = X.shape[0]
@@ -20,7 +21,7 @@ def idct_iii_ortho(X):
     alpha = np.ones(N); alpha[0] = 1/np.sqrt(2)
     x_rec = np.sqrt(2/N) * (C @ (alpha * X))
     return x_rec
-'''
+```
 
 
 ## Covariance matrix
