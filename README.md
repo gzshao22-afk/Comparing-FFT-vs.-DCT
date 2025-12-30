@@ -59,7 +59,7 @@ Covariance matrix is
 $$
 C=\frac{1}{n-1}\sum_{i=1}^n(X_i-\bar{X})^T(X_i-\bar{X})
 $$
-where our date set is expressed by the matrix $\sigma$
+where our date set is expressed by the matrix $X \in \mathbb{R^n x d}$
 
 
 ## numpy tips
