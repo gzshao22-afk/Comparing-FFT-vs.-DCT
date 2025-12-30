@@ -35,5 +35,5 @@ A @ B is matrix multiplication, it's equivalent to np.dot(A, B)
 
 
 $$
-C = /frac{1}{n-1}\sum_{i=1}{n}(X_i - X_bar)(X_i - X_bar)^T
+C = \frac{1}{n-1}\sum_{i=1}^n(X_i - X_bar)(X_i - X_bar)^T
 $$
