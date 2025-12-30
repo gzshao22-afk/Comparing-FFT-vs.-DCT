@@ -28,7 +28,7 @@ Note: numpy array display format is different from the computation format. For e
 ```python
  x_rec = np.sqrt(2/N) * (C @ (alpha * X))
 ```
-Note broadcast rule: ```python n[:, None]    k[None, :]```
+Note broadcast rule: ``` n[:, None]    k[None, :]```
 
 where 
 ```python
