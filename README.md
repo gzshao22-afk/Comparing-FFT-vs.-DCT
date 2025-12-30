@@ -23,6 +23,22 @@ def idct_iii_ortho(X):
     return x_rec
 ```
 
+Note: numpy array display format is different from the computation format. For example, a 1D array is displayed horizontally. However, in calculation, it's treated as a column vector. Just like in this line
+
+```python
+ x_rec = np.sqrt(2/N) * (C @ (alpha * X))
+```
+where 
+```python
+x_rec
+X
+```
+are both column vector of size N
+```python
+C
+```
+is NxN matrix.
+If taking arrays as they are displayed to do matrix multiplication, it would not make sense. 
 
 ## Covariance matrix
 
