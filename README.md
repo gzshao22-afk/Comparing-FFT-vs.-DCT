@@ -33,9 +33,7 @@ Covariance matrix is
 ## numpy tips
 A @ B is matrix multiplication, it's equivalent to np.dot(A, B)
 
+
 $$
-\begin{align}
-x &= 5 \\
-y &= 10
-\end{align}
+C = /frac{1}{n-1}\sum_{i=1}{n}(X_i - X_bar)(X_i - X_bar)^T
 $$
