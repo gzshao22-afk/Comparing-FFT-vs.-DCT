@@ -42,12 +42,17 @@ If taking arrays as they are displayed to do matrix multiplication, it would not
 
 # Covariance matrix
 
-Covariance matrix is 
+Variance is 
 
 $$
 \sigma_x^2 = \frac{1}{n-1}\sum_{i=1}^n(x_i - \bar{x})^2
 $$
 
+Covariance is given by
+
+$$
+\sigma(x,y)=\frac{1}{n-1}\sum_{i=1}^n(x_i-\bar{x})(y_i-\bar{y})
+$$
 
 ## numpy tips
 A @ B is matrix multiplication, it's equivalent to np.dot(A, B)
