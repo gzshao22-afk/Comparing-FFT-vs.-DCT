@@ -30,17 +30,6 @@ Note: numpy array display format is different from the computation format. For e
 ```
 Note broadcast rule: ``` n[:, None]    k[None, :]```
 
-where 
-```python
-x_rec
-X
-```
-are both column vector of size N
-```python
-C
-```
-is NxN matrix.
-If taking arrays as they are displayed to do matrix multiplication, it would not make sense. 
 
 # Covariance matrix
 
@@ -76,15 +65,8 @@ $$
 ## numpy tips
 A @ B is matrix multiplication, it's equivalent to np.dot(A, B)
 
-
-$$
-C = \frac{1}{n-1}\sum_{i=1}^n(X_i - \bar{X})(X_i - \bar{X})^T
-$$
-
-$$
-A = \begin{bmatrix}
-a_{11} & a_{12} & \cdots \\
-a_{21} & a_{22} & \cdots \\
-\vdots & \vdots & \ddots
-\end{bmatrix}
-$$
+1D array is not treated as a vector unless specified.
+Within matrix multiplication: its behavior is "flexible"
+When using the @ (matmul) operator or np.dot(), a 1D array is "promoted" to 2D to satisfy the requirements of matrix multiplication: 
+Pre-multiplied (Left side): It is treated as a row vector.
+Post-multiplied (Right side): It is treated as a column vector. 
