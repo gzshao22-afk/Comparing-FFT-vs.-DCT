@@ -60,7 +60,15 @@ $$
 C=\frac{1}{n-1}\sum_{i=1}^n(X_i-\bar{X})^T(X_i-\bar{X})
 $$
 
-where our date set is expressed by the matrix $X \in \mathbb{R^{n\times d}}$
+where our date set is expressed by the matrix $X \in \mathbb{R^{n\times d}}$.
+It can also be expressed as
+
+$$
+C = \begin{pmatrix}
+\sigma(x,x) & \sigma(x,y) \\
+\sigma(y,x) & \sigma(y,y)
+\end{pmatrix}
+$$
 
 
 ## numpy tips
