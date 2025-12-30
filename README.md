@@ -40,11 +40,11 @@ C
 is NxN matrix.
 If taking arrays as they are displayed to do matrix multiplication, it would not make sense. 
 
-## Covariance matrix
+# Covariance matrix
 
 Covariance matrix is 
 $$
-\sigma = \frac{1}{n-1}\sum_{i=1}^n(x_i - \bar{x})^2
+C = \sigma = \frac{1}{n-1}\sum_{i=1}^n(x_i - \bar{x})^2
 $$
 
 
