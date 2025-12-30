@@ -54,6 +54,13 @@ $$
 \sigma(x,y)=\frac{1}{n-1}\sum_{i=1}^n(x_i-\bar{x})(y_i-\bar{y})
 $$
 
+Covariance matrix is
+
+$$
+C=\frac{1}{n-1}\sum_{i=1}^n(X_i-\bar{X})(X_i-\bar{X})^T
+$$
+
+
 ## numpy tips
 A @ B is matrix multiplication, it's equivalent to np.dot(A, B)
 
