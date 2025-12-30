@@ -44,7 +44,7 @@ If taking arrays as they are displayed to do matrix multiplication, it would not
 
 Covariance matrix is 
 $$
-C = \sigma = \frac{1}{n-1}\sum_{i=1}^n(x_i - \bar{x})^2
+sigma = \frac{1}{n-1}\sum_{i=1}^n(x_i - \bar{x})^2
 $$
 
 
