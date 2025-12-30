@@ -43,7 +43,9 @@ If taking arrays as they are displayed to do matrix multiplication, it would not
 ## Covariance matrix
 
 Covariance matrix is 
-
+$$
+\sigma_x^2 = \frac{1}{n-1}\sum_{i=1}^n(x_i - \bar{x})^2
+$$
 
 
 ## numpy tips
