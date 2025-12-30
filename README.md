@@ -66,7 +66,7 @@ $$
 A @ B is matrix multiplication, it's equivalent to np.dot(A, B)
 
 1D array is not treated as a vector unless specified.
-Within matrix multiplication: its behavior is "flexible"
+Within matrix multiplication: its behavior is "flexible" \
 When using the @ (matmul) operator or np.dot(), a 1D array is "promoted" to 2D to satisfy the requirements of matrix multiplication: 
 Pre-multiplied (Left side): It is treated as a row vector.
 Post-multiplied (Right side): It is treated as a column vector. 
