@@ -53,3 +53,11 @@ A @ B is matrix multiplication, it's equivalent to np.dot(A, B)
 $$
 C = \frac{1}{n-1}\sum_{i=1}^n(X_i - \bar{X})(X_i - \bar{X})^T
 $$
+
+$$
+A = \begin{bmatrix}
+a_{11} & a_{12} & \cdots \\
+a_{21} & a_{22} & \cdots \\
+\vdots & \vdots & \ddots
+\end{bmatrix}
+$$
