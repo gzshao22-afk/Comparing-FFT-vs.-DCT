@@ -33,3 +33,9 @@ Covariance matrix is
 ## numpy tips
 A @ B is matrix multiplication, it's equivalent to np.dot(A, B)
 
+$$
+\begin{align}
+x &= 5 \\
+y &= 10
+\end{align}
+$$
